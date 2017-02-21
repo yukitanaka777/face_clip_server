@@ -1,0 +1,52 @@
+body{
+	height:100%;
+	text-align:center;
+	background:url('../image/background.png');
+	background-size:cover;
+	background-position:50% 50%;
+	overflow:hidden;
+	color:white;
+}
+
+
+#box{
+	height:90%;
+	position:relative;
+}
+
+canvas{
+	position:absolute;
+	top:0;
+	left:0;
+	left:0;
+	right:0;
+	margin:auto;
+	opacity:0;
+}
+
+canvas.view{
+	opacity:1;
+	z-index:1;
+}
+
+#startButton{
+	margin:auto;
+	width:200px;
+	height:25px;
+}
+
+#loadingLine{
+	width:0;
+	height:3px;
+	background:white;
+}
+
+#loading{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto;
+	height:30px;
+}
